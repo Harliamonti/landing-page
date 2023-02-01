@@ -30,11 +30,17 @@ main {
 
 .main-box {
     display: flex;
-    justify-content: space-between;
+    flex: 1;
 }
 
 .main-item-1-box {
     flex: 1;
+}
+
+.main-item-3 {
+    display: flex;
+    flex-direction: column;
+
 }
 
 footer {
