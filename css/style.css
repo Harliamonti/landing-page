@@ -29,7 +29,12 @@ main {
 }
 
 .main-box {
+    display: flex;
+    justify-content: space-between;
+}
 
+.main-item-1-box {
+    flex: 1;
 }
 
 footer {
