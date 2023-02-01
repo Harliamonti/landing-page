@@ -1,15 +1,15 @@
 body {
     height:100vh;
-
+    
     margin: 0;
-
+    
     display: flex;
     flex-direction: column;
 }
 
 header {
     background-color: #ff6565;
-
+    
     display: flex;
     justify-content: space-between;
 }
@@ -24,7 +24,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    
     flex: 1;
 }
 
@@ -33,14 +33,30 @@ main {
     flex: 1;
 }
 
+.main-item-1 {
+    background-color: #9e9eff;
+}
+
 .main-item-1-box {
     flex: 1;
 }
 
-.main-item-3 {
+.main-item-2 {
     display: flex;
     flex-direction: column;
+}
 
+.main-item-2 > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-item-3 {
+    background-color: darkgrey;
+    
+    display: flex;
+    flex-direction: column;
+    
 }
 
 footer {
