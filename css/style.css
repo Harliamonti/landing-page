@@ -4,13 +4,17 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #ff6565;
 }
 
 main {
-    background-color: #000000;
+    background-color: #b6e066;
+}
+
+.main-box {
+    
 }
 
 footer {
-    background-color: #000000;
+    background-color: #47eaff;
 }
