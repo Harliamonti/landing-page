@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0 300px;
-
+    
 }
 .header-logo {
     color: #F9FAF8;
@@ -54,7 +54,7 @@ main {
 main > div {
     display: flex;
     flex: 1;
-
+    
     padding: 0 300px;
 }
 /* ////////////////////////////////////////////////////////// */
@@ -78,6 +78,15 @@ main > div {
     justify-content: center;
     gap: 90px;
     flex-grow: 0;
+    
+    padding-bottom: 70px;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    color:#1F2937;
+
 }
 
 .info-box {
@@ -89,6 +98,7 @@ main > div {
 
 .info-text {
     width: 210px;
+    text-align: center;
 }
 
 /* ////////////////////////////////////////////////////////// */
@@ -96,9 +106,21 @@ main > div {
 
 .content-3 {
     background-color: #e5e7eb;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1f2937;
+}
+
 .quotee {
     align-self: flex-end;
+    font-weight: bolder;
 }
 /* ////////////////////////////////////////////////////////// */
 
@@ -143,3 +165,6 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
+
+/* ////////////////////////////////////////////////////////// */
