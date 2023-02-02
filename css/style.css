@@ -139,6 +139,11 @@ main > div {
     height: 5000px;
 }
 
+.footer-text {
+    text-align: center;
+    color: #E5E7EB;
+}
+
 .call-to-action {
     border: 0;
     border-radius: 8px;
