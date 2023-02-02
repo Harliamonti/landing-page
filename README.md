@@ -1,9 +1,5 @@
 # landing-page
 
-Don't forget to write me!!!
+Well it works, I did think to style it into my own thing but I'm a wee bit pressed for time. Not very reponsive :()
 
-to do:
-
-hero banner should be part of the header.
-currently main-box-item-1 isn't decriptive enough, change names.
-change direct ancestors where needed ie '>'
+Live link: https://harliamonti.github.io/landing-page/
