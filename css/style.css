@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0; 
     display: flex;
@@ -40,6 +44,10 @@ header {
     background-color: grey;
 }
 
+#hero-button {
+    margin-top: 5px;
+}
+
 
 /* ////////////////////////////////////////////////////////// */
 
@@ -63,6 +71,8 @@ main > div {
     background-color: #1F2937;
     padding-top: 50px;
     padding-bottom: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 .content-1 * {
     margin: 0;
@@ -75,7 +85,7 @@ main > div {
 }
 
 .content-2-box {
-    justify-content: center;
+    justify-content: space-between;
     gap: 90px;
     flex-grow: 0;
     
@@ -126,11 +136,31 @@ main > div {
 
 .content-4 {
     background-color: white;
+    height: 5000px;
+}
+
+.call-to-action {
+    border: 0;
+    border-radius: 8px;
+    background-color: #3882f6;
+    margin: 70px auto;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.call-to-action-box {
+    padding: 50px;
+}
+
+.call-to-action-text {
+    margin: 0;
+    padding: 0;
 }
 
 footer {
     background-color: #1F2937;
 }
+
 
 a {
     text-decoration: none;
@@ -147,10 +177,12 @@ ul {
 .flex-row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .flex-column {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .flex-size-default {
@@ -162,7 +194,6 @@ ul {
 }
 
 .flex-center {
-    justify-content: center;
     align-items: center;
 }
 
@@ -180,4 +211,7 @@ ul {
     border: 0;
     border-radius: 5px;
     color: white;
+}
+.button-border {
+    border: 1px solid white;
 }
